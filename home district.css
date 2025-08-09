@@ -1,0 +1,130 @@
+body{
+      background-color: bisque;
+      text-align: center;
+        padding: auto;
+    margin: auto;
+    font-size: 45px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6; 
+    width: 90%;
+    max-width: max-content; 
+   border: 2px solid #555; 
+   }
+
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  max-width: 900px; 
+  margin: 0 auto;  
+  padding: 20px;
+ }
+  h2{
+    text-align: center;
+    color: darkblue;
+  }
+   p{
+        text-align: left;
+        font-size: 35px;
+    }   
+    #pic{
+        display: block;
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;}
+   
+   
+    
+    
+image{
+    height:500px;
+    width: 200px;
+}
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    
+    margin: 0.5rem 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.4;
+}
+    .image-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .image-row img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .image-row img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  }
+  .map-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  #int, #his, #geo, #dem, #fam, #tour, #edu, #loc {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+  }
+  nav {
+  background: darkblue;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #e017ae;
+transition: background-color 0.3s ease;
+  color: emerald;
+}
+footer {
+    background-color:  #BC8F8F;
+    color: white;
+    border-top: 1px solid #ccc; 
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+button {
+    background-color:#e017ae ;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
